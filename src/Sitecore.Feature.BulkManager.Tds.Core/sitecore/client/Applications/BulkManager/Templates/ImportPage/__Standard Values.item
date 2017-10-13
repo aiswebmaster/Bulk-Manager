@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {AB3ECEC0-B8EE-450D-95D2-34B54A1DE5A3}
+database: core
+path: /sitecore/client/Applications/BulkManager/Templates/ImportPage/__Standard Values
+parent: {7430CF94-3DC6-4039-8419-CBCF8F34010B}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {7430CF94-3DC6-4039-8419-CBCF8F34010B}
+templatekey: ImportPage
+created: 20170304T033410Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 4541
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}">
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fApplications%2fBulkManager%2fImportPage.js" ph="Page.Code" uid="{E11A256C-CB2A-4534-9B9C-2808AD24FD5F}" />
+    <r id="{225B55AC-0270-44F9-842B-96D89F9C20A9}" ph="Page.Body" uid="{F13BB627-6D10-48AE-A517-775F96A8A2E0}" />
+    <r id="{5AE97C0C-EE88-4564-A363-4FA11C01C90A}" ph="GlobalHeader" uid="{FEDFDB23-F441-4C8E-8EE8-2B87E7936578}" />
+    <r id="{2EE499CD-439A-4F10-B81F-36A54CAC01DB}" par="Id=AccountInformation1" ph="GlobalHeader.LoginInfo" uid="{9F9783BB-C839-4878-B5A6-A00E0896B44D}" />
+    <r id="{7A69C522-7E99-4630-A25A-5D571505862A}" par="Id=GlobalLogo1" ph="GlobalHeader.StartButton" uid="{38E84815-2CB3-48E6-988A-9655AA84FEB3}" />
+    <r id="{93CEEFCD-2DE1-40AF-AE9A-EBBFBCCC522F}" par="ShowHeader=0" ph="ApplicationHeader" uid="{78BC3EEB-F970-4B71-B542-154E9DEF9919}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=HeaderText&amp;Text=Import+Wizard" ph="ApplicationHeader.Title" uid="{7EE1DFA1-363B-49DE-AB87-C1EB353EB281}" />
+    <r id="{EB6214BE-5687-4706-ABA6-B25C0958C85B}" ph="ApplicationContent" uid="{B24FA616-1A7E-453B-BA5F-421EB7F1244E}" />
+    <r ds="{591C2690-DD7B-4AB5-A264-1AF01A954A1D}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=btnExport" ph="ApplicationContent.Navigation" uid="{20F5C329-3C75-4D6E-BCE6-9BF67F1B2284}" />
+    <r ds="{008B912F-A5D9-4D4F-842E-BFF9F5D0D866}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=btnImport&amp;IsEnabled=0" ph="ApplicationContent.Navigation" uid="{A558E383-2644-4B16-9F15-C87F0DC8E648}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="UsePadding=1&amp;Id=RowPanel1&amp;PaddingType=All" ph="ApplicationContent.Main" uid="{4EEA00E4-E2AF-4566-A78D-5C47A3DA879D}" />
+    <r id="{EF961BB6-0A39-4A3D-A218-0BBE26B25998}" par="Id=CsvUpload" ph="RowPanel1.Content" uid="{C5EB4280-E2B0-41C9-8F6E-24D0F3CA5C67}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=Border&amp;PaddingType=All&amp;Height=5px&amp;UsePadding=1&amp;ShowBorder=0" ph="ApplicationContent.Main" uid="{286112F4-83F9-443C-97AD-BC7C5ED16F97}" />
+    <r ds="{52EE0147-6B1E-46CF-A109-9532BC2AD2BD}" id="{98316BB6-F3F5-4E6F-81F0-79F173D151D8}" par="Id=CreateNewVersionLabel" ph="ApplicationContent.Main" uid="{F5BFA3E8-00D9-4E47-A347-B1E01982B7C8}" />
+    <r id="{3824DAB6-745A-468A-9D75-044591E72FB5}" par="Id=CreateNewVersion" ph="ApplicationContent.Main" uid="{10A49D08-3F6B-4A45-B289-C58F31694F38}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=Border1&amp;PaddingType=All&amp;Height=5px&amp;UsePadding=1&amp;ShowBorder=0" ph="ApplicationContent.Main" uid="{71A675FF-D0DB-473E-B5F5-A2B265EF866D}" />
+    <r id="{98316BB6-F3F5-4E6F-81F0-79F173D151D8}" par="Id=LabelDatabase&amp;Target=DatabaseTextbox&amp;Text=Database%3a" ph="ApplicationContent.Main" uid="{FC2DD4F7-9130-47CF-8EF8-91F04E3DA4D7}" />
+    <r id="{57F86E9A-1844-45CE-BF8A-62900AE17A92}" par="IsEnabled=1&amp;Text=master&amp;Id=DatabaseTextbox&amp;IsVisible=1" ph="ApplicationContent.Main" uid="{84C4D32C-CE94-46F7-B505-719F031EF7BD}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=Border2&amp;Height=5px&amp;UsePadding=1&amp;ShowBorder=0" ph="ApplicationContent.Main" uid="{13318D0B-CFF5-4011-80C9-EF86D4A91976}" />
+    <r ds="{86055EF5-EE49-48CE-8C52-69E0A1743208}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=Import" ph="ApplicationContent.Main" uid="{E5EBDB4A-12CE-4B1E-8D31-9B0FF86738EE}" />
+    <r ds="{091BB17D-4187-434B-8A1C-5A4022A0E7D6}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=Cancel" ph="ApplicationContent.Main" uid="{2CC47AB6-59C2-4A2A-8E60-36EC4EF0C786}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=Border3&amp;Height=5px&amp;UsePadding=1&amp;ShowBorder=0" ph="ApplicationContent.Main" uid="{08139C38-CB6F-4391-B4CD-0F94D29ADD7B}" />
+    <r id="{98316BB6-F3F5-4E6F-81F0-79F173D151D8}" par="Id=LabelDatabase1&amp;Target=DatabaseTextbox&amp;Text=Import+Results%3a" ph="ApplicationContent.Main" uid="{E05F8AB0-83BE-4CEE-9DB6-1908A2B84F0B}" />
+    <r id="{9918B36C-92ED-4EB8-A95A-009E2523C672}" par="Rows=8&amp;Id=TextAreaResults&amp;IsVisible=1&amp;IsEnabled=1&amp;Wrap=True" ph="ApplicationContent.Main" uid="{9B0C98BA-E75F-436B-87C1-4C883E492122}" />
+    <r id="{EC86834B-890C-405C-BB36-CA25044909E1}" ph="GlobalFooter" uid="{DBF03E63-60E9-445E-9803-4D3C9B30BFB2}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: 79d094d0-ea35-4573-b304-9a073bb89ec6
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170304T033410Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+79d094d0-ea35-4573-b304-9a073bb89ec6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170304T231438Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

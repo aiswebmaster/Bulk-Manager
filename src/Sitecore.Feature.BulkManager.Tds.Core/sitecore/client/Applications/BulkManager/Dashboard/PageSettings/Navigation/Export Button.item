@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {591C2690-DD7B-4AB5-A264-1AF01A954A1D}
+database: core
+path: /sitecore/client/Applications/BulkManager/Dashboard/PageSettings/Navigation/Export Button
+parent: {FCE1F2A9-F8DC-47E9-9AD9-B36BC75F7E74}
+name: Export Button
+master: {00000000-0000-0000-0000-000000000000}
+template: {8A9F4991-322D-4FA3-B40B-41B1C715C34B}
+templatekey: Button Parameters
+created: 20170304T062033Z
+
+----field----
+field: {799BCB23-81F9-4C11-A613-97788196C3C9}
+name: ButtonType
+key: buttontype
+content-length: 7
+
+Primary
+----field----
+field: {4C9BDFE0-DF3D-488D-B562-BC2E36126014}
+name: Dimension
+key: dimension
+content-length: 5
+
+Large
+----field----
+field: {9F2E12C5-F236-441D-AE2F-1DF11A343D81}
+name: Click
+key: click
+content-length: 93
+
+javascript:window.location.href ="/sitecore/client/Applications/BulkManager/Pages/ExportPage"
+----version----
+language: en
+version: 1
+revision: 3338b08a-25bb-484b-acde-a3613a7026af
+
+----field----
+field: {99A761CF-5262-4D10-B53E-4CD9E79C232D}
+name: Text
+key: text
+content-length: 6
+
+Export
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170304T062033Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3338b08a-25bb-484b-acde-a3613a7026af
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170304T130254Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

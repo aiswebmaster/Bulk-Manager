@@ -1,0 +1,83 @@
+----item----
+version: 1
+id: {5C5DE644-A2B6-4959-A768-9BDEE7993F59}
+database: core
+path: /sitecore/client/Applications/BulkManager/Templates/Dashboard/__Standard Values
+parent: {CDEE9840-A131-4098-B0C5-C4E39AD4909E}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {CDEE9840-A131-4098-B0C5-C4E39AD4909E}
+templatekey: Dashboard
+created: 20170304T033403Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 2292
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}">
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fApplications%2fBulkManager%2fDashboard.js" ph="Page.Code" uid="{06C3C145-65CC-40F6-A592-9679B68F1DA8}" />
+    <r id="{225B55AC-0270-44F9-842B-96D89F9C20A9}" ph="Page.Body" uid="{5BDEC60A-F3B7-454F-BD1C-EFFC798C608E}" />
+    <r id="{7A69C522-7E99-4630-A25A-5D571505862A}" par="Id=GlobalLogo1" ph="GlobalHeader.StartButton" uid="{D5F892C5-ABBA-4486-BCC4-945D853824CF}" />
+    <r id="{2EE499CD-439A-4F10-B81F-36A54CAC01DB}" par="Id=AccountInformation1" ph="GlobalHeader.LoginInfo" uid="{BF1B555F-3BA9-4BC6-A8EB-988D4947B29E}" />
+    <r id="{5AE97C0C-EE88-4564-A363-4FA11C01C90A}" ph="GlobalHeader" uid="{2AC2376E-35E7-483D-9DB9-7EE54588B54E}" />
+    <r id="{EA28ED83-0F59-4BB9-AA95-6FAC9C3385D6}" par="Id=NavigationPanelToggleButton1" ph="GlobalHeader.NavigationToggler" uid="{B099EB01-3A01-4EAB-98B3-D9D059591E67}" />
+    <r id="{EC86834B-890C-405C-BB36-CA25044909E1}" ph="GlobalFooter" uid="{4CE08CE3-4481-4B7E-BA5F-4E544FBAE5CB}" />
+    <r id="{93CEEFCD-2DE1-40AF-AE9A-EBBFBCCC522F}" ph="ApplicationHeader" uid="{C0C34D9C-493E-485B-A1CF-37D96B23BC0F}" />
+    <r ds="{F4896631-7FD1-4B6B-8B1B-C1B0775186A1}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=HeaderTitle" ph="ApplicationHeader.Title" uid="{AB096DF0-72F9-43E0-9EF4-DEBA972B90C6}" />
+    <r id="{910155C7-3881-4A56-90FB-D126490EDE55}" par="Id=MessageBar1" ph="ApplicationHeader" uid="{67F64939-5BDE-4020-857C-2BE8496CB7A7}" />
+    <r id="{EB6214BE-5687-4706-ABA6-B25C0958C85B}" ph="ApplicationContent" uid="{F1FB4369-9C9F-4424-B99D-4480C2332384}" />
+    <r id="{C5D667DE-AA48-4072-872E-7C8BFFCE4D44}" par="Id=Menu1" ph="ApplicationContent.Navigation" uid="{F281BA15-B3B2-46FF-93B6-483BE8BAD7A7}" />
+    <r ds="{591C2690-DD7B-4AB5-A264-1AF01A954A1D}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=btnExport" ph="ApplicationContent.Navigation" uid="{944B3948-68B0-4F19-B70E-94140BB1FA65}" />
+    <r ds="{008B912F-A5D9-4D4F-842E-BFF9F5D0D866}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=btnImport" ph="ApplicationContent.Navigation" uid="{54055C34-D93C-4A5E-B8D7-112E7F92B64F}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: a0061119-42a1-4574-82a9-875a18d2edb6
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170304T033403Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a0061119-42a1-4574-82a9-875a18d2edb6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170304T101559Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

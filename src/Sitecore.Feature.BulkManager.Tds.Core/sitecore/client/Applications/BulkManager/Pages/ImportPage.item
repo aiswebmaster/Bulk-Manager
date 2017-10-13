@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {2C41AB71-BFB6-46AE-81D4-E6637FF5AF8C}
+database: core
+path: /sitecore/client/Applications/BulkManager/Pages/ImportPage
+parent: {7DE142CB-8D61-44EF-8C6D-4A579F639AC4}
+name: ImportPage
+master: {00000000-0000-0000-0000-000000000000}
+template: {7430CF94-3DC6-4039-8419-CBCF8F34010B}
+templatekey: ImportPage
+created: 20170304T033835Z
+
+----field----
+field: {5E642935-A6FC-48E9-B039-FE1136CED488}
+name: Theme
+key: theme
+content-length: 7
+
+Harvard
+----field----
+field: {F7B4EBC1-2335-4EB8-AFAE-3444923A38BE}
+name: Subthemes
+key: subthemes
+content-length: 0
+
+
+----field----
+field: {3A67AD0F-9530-4B1B-9B70-9230C36AE8D6}
+name: UseFullWidth
+key: usefullwidth
+content-length: 1
+
+1
+----field----
+field: {64DA76C1-7BD0-4103-9253-C3E76F26DAB0}
+name: IsApplicationRoot
+key: isapplicationroot
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: ec1c0664-2fab-4d39-843a-40802ac4e2a9
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 10
+
+ImportPage
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170304T033835Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ec1c0664-2fab-4d39-843a-40802ac4e2a9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170304T091935Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

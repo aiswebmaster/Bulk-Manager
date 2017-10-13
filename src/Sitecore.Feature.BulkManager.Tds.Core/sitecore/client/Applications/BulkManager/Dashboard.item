@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {4C4784CB-E4A7-4A7A-9F9C-1B0E168ED2B1}
+database: core
+path: /sitecore/client/Applications/BulkManager/Dashboard
+parent: {27DB89BF-2CFA-414D-B879-82AEFBFFFBD4}
+name: Dashboard
+master: {BE42F637-4596-4FA6-AC95-5FF431320454}
+template: {CDEE9840-A131-4098-B0C5-C4E39AD4909E}
+templatekey: Dashboard
+created: 20170304T023105Z
+
+----field----
+field: {5E642935-A6FC-48E9-B039-FE1136CED488}
+name: Theme
+key: theme
+content-length: 6
+
+Oxford
+----field----
+field: {3A67AD0F-9530-4B1B-9B70-9230C36AE8D6}
+name: UseFullWidth
+key: usefullwidth
+content-length: 1
+
+1
+----field----
+field: {64DA76C1-7BD0-4103-9253-C3E76F26DAB0}
+name: IsApplicationRoot
+key: isapplicationroot
+content-length: 1
+
+1
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{B22A6209-8076-42B2-A3E4-44ED4F6A5569}
+----version----
+language: en
+version: 1
+revision: 0f51b98e-08ad-4c73-95ab-f3a28d728644
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 14
+
+Dashboard Page
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170304T023105Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0f51b98e-08ad-4c73-95ab-f3a28d728644
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170304T062543Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

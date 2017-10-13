@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{601F13ED-A933-47BB-8350-FA913069F421}"
+	ProjectSection(SolutionItems) = preProject
+		gulp-config.js = gulp-config.js
+		gulpfile.js = gulpfile.js
+		package.json = package.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".tds", ".tds", "{CD7F2326-9093-4A60-9757-981195D02889}"
+	ProjectSection(SolutionItems) = preProject
+		TdsGlobal.config = TdsGlobal.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{65EAAA04-BDE3-4839-8FAE-26C5755DCA19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{F046CF34-9863-449C-A43A-F8AB7898C049}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{68FF5CCE-EA19-4157-9300-1DA4DFF40B50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BulkManager", "BulkManager", "{EFC79FB3-596A-48F8-B9F0-CC4B0508D17E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Feature.BulkManager.Web", "Sitecore.Feature.BulkManager.Web\Sitecore.Feature.BulkManager.Web.csproj", "{B35A94C7-50BD-4FDA-BB85-333202D24B8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Feature.BulkManager.Core", "Sitecore.Feature.BulkManager.Core\Sitecore.Feature.BulkManager.Core.csproj", "{0A685BE0-F770-44A4-B9BD-C886A9ADDD93}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Sitecore.Feature.BulkManager.Tds.Core", "Sitecore.Feature.BulkManager.Tds.Core\Sitecore.Feature.BulkManager.Tds.Core.scproj", "{8F883EA3-386C-4616-ABCF-DD6EC1886F36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B35A94C7-50BD-4FDA-BB85-333202D24B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B35A94C7-50BD-4FDA-BB85-333202D24B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B35A94C7-50BD-4FDA-BB85-333202D24B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B35A94C7-50BD-4FDA-BB85-333202D24B8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A685BE0-F770-44A4-B9BD-C886A9ADDD93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A685BE0-F770-44A4-B9BD-C886A9ADDD93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A685BE0-F770-44A4-B9BD-C886A9ADDD93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A685BE0-F770-44A4-B9BD-C886A9ADDD93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F883EA3-386C-4616-ABCF-DD6EC1886F36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F883EA3-386C-4616-ABCF-DD6EC1886F36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F883EA3-386C-4616-ABCF-DD6EC1886F36}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8F883EA3-386C-4616-ABCF-DD6EC1886F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F883EA3-386C-4616-ABCF-DD6EC1886F36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F883EA3-386C-4616-ABCF-DD6EC1886F36}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EFC79FB3-596A-48F8-B9F0-CC4B0508D17E} = {65EAAA04-BDE3-4839-8FAE-26C5755DCA19}
+		{B35A94C7-50BD-4FDA-BB85-333202D24B8C} = {EFC79FB3-596A-48F8-B9F0-CC4B0508D17E}
+		{0A685BE0-F770-44A4-B9BD-C886A9ADDD93} = {EFC79FB3-596A-48F8-B9F0-CC4B0508D17E}
+		{8F883EA3-386C-4616-ABCF-DD6EC1886F36} = {EFC79FB3-596A-48F8-B9F0-CC4B0508D17E}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs.arrowdesigns.net:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Sitecore.Feature.BulkManager.Web\\Sitecore.Feature.BulkManager.Web.csproj
+		SccProjectTopLevelParentUniqueName1 = Sitecore.Hackathon.sln
+		SccProjectName1 = Sitecore.Feature.BulkManager.Web
+		SccLocalPath1 = Sitecore.Feature.BulkManager.Web
+		SccProjectUniqueName2 = Sitecore.Feature.BulkManager.Core\\Sitecore.Feature.BulkManager.Core.csproj
+		SccProjectTopLevelParentUniqueName2 = Sitecore.Hackathon.sln
+		SccProjectName2 = Sitecore.Feature.BulkManager.Core
+		SccLocalPath2 = Sitecore.Feature.BulkManager.Core
+		SccProjectUniqueName3 = Sitecore.Feature.BulkManager.Tds.Core\\Sitecore.Feature.BulkManager.Tds.Core.scproj
+		SccProjectTopLevelParentUniqueName3 = Sitecore.Hackathon.sln
+		SccProjectName3 = Sitecore.Feature.BulkManager.Tds.Core
+		SccLocalPath3 = Sitecore.Feature.BulkManager.Tds.Core
+	EndGlobalSection
+EndGlobal

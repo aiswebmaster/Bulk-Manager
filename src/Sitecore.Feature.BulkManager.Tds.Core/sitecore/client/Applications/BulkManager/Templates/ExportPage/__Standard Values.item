@@ -1,0 +1,102 @@
+----item----
+version: 1
+id: {FAB73B19-CAF6-47AD-B7A2-5CD2F9B2E8B0}
+database: core
+path: /sitecore/client/Applications/BulkManager/Templates/ExportPage/__Standard Values
+parent: {E2C63E1F-59E2-4AA3-9224-E3ED17E6DFB5}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {E2C63E1F-59E2-4AA3-9224-E3ED17E6DFB5}
+templatekey: ExportPage
+created: 20170304T033406Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 6457
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}">
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fApplications%2fBulkManager%2fExportPage.js" ph="Page.Code" uid="{9EC5A707-897B-4F4A-B55B-5A1ED1D81540}" />
+    <r id="{225B55AC-0270-44F9-842B-96D89F9C20A9}" ph="Page.Body" uid="{94FE9E95-1C03-4ED8-99BD-A6FF0CBBA71B}" />
+    <r id="{5AE97C0C-EE88-4564-A363-4FA11C01C90A}" ph="GlobalHeader" uid="{656500BC-AA6A-4312-A012-559BC4251CB0}" />
+    <r id="{2EE499CD-439A-4F10-B81F-36A54CAC01DB}" par="Id=AccountInformation1" ph="GlobalHeader.LoginInfo" uid="{19ABD956-A759-4CC1-BCDE-4C322450D676}" />
+    <r id="{7A69C522-7E99-4630-A25A-5D571505862A}" par="Id=GlobalLogo1" ph="GlobalHeader.StartButton" uid="{A5214257-DAE2-448B-B318-B5E8D9FFD8D9}" />
+    <r id="{93CEEFCD-2DE1-40AF-AE9A-EBBFBCCC522F}" par="ShowHeader=0" ph="ApplicationHeader" uid="{3E1618FC-C4BD-44F2-8189-E26777023712}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=HeaderTitle&amp;IsVisible=1&amp;TextType=Title&amp;Text=Export+Wizard" ph="ApplicationHeader.Title" uid="{1C4B191E-4AD1-4FF7-9A45-5538CADE0372}" />
+    <r id="{EB6214BE-5687-4706-ABA6-B25C0958C85B}" ph="ApplicationContent" uid="{90021840-6BAC-4F69-B55A-FE4BAC62FB52}" />
+    <r ds="{008B912F-A5D9-4D4F-842E-BFF9F5D0D866}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=btnImport" ph="ApplicationContent.Navigation" uid="{CFD24ECD-FA7F-41B9-830D-883532ADE975}" />
+    <r ds="{591C2690-DD7B-4AB5-A264-1AF01A954A1D}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=btnExport&amp;IsEnabled=0" ph="ApplicationContent.Navigation" uid="{9138B6F8-3165-4072-BF0E-9F5FE535AE43}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=Text1&amp;Text=Choose+to+either+generate+an+export+of+Sitecore+items+using+the+Datasource+Query+or+Parent+Path+below%3a" ph="ApplicationContent.Main" uid="{6E3D534F-A9D0-45C9-B73E-9DC6090FC0A9}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=Border2&amp;PaddingType=All&amp;Height=10px&amp;UsePadding=1&amp;ShowBorder=0" ph="ApplicationContent.Main" uid="{65594BB2-21CC-42A0-AE41-C000286031CF}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=RowPanel1" ph="ApplicationContent.Main" uid="{94DFCF8E-C1AB-41A9-AB50-CB7A8ABCDB0E}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ColumnPanel1&amp;ApplyGridColumsToAllSizes=1&amp;GridColumns=4&amp;ContentAlign=Left" ph="RowPanel1.Content" uid="{41CC2220-088C-4D8A-8E70-1FD464806EED}" />
+    <r id="{98316BB6-F3F5-4E6F-81F0-79F173D151D8}" par="Id=LabelDatasource&amp;Target=TextboxDatasource&amp;Text=Datasource+Query%3a" ph="ColumnPanel1.Content" uid="{E68CED60-DC54-41F7-8377-B4CCA51C8FC2}" />
+    <r id="{57F86E9A-1844-45CE-BF8A-62900AE17A92}" par="IsEnabled=1&amp;IsRequired=1&amp;Id=TextboxDatasource&amp;IsVisible=1" ph="ColumnPanel1.Content" uid="{BA40705F-D1B5-4440-9772-8998E1F5EF9B}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ColumnPanel2&amp;ApplyGridColumsToAllSizes=1&amp;GridColumns=8&amp;ContentAlign=Left" ph="RowPanel1.Content" uid="{5FE94CA2-0BDB-44A2-8489-F658B435E797}" />
+    <r id="{98316BB6-F3F5-4E6F-81F0-79F173D151D8}" par="Id=LabelParentPath&amp;Target=ParentTreeView&amp;Text=Parent+Path%3a" ph="ColumnPanel2.Content" uid="{B879E5A3-2489-4036-87F8-607E8A961BEE}" />
+    <r id="{08B6767B-8E8A-41C8-8880-EFEBB4EAE0E3}" par="Id=ParentTreeView&amp;IsCheckboxEnabled=0" ph="ColumnPanel2.Content" uid="{ACEE4682-48F3-46AB-826E-357B29EB6658}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=Border3&amp;PaddingType=All&amp;Height=10px&amp;UsePadding=1&amp;ShowBorder=0" ph="ApplicationContent.Main" uid="{6C44D91D-8672-4833-A344-557556BF2449}" />
+    <r id="{98316BB6-F3F5-4E6F-81F0-79F173D151D8}" par="Id=LabelStandardFields&amp;Target=IncludeStandardField&amp;Text=Include+Standard+Fields%3a" ph="ApplicationContent.Main" uid="{E4BB16C3-09CD-4080-80AF-E4EC989908C4}" />
+    <r id="{3824DAB6-745A-468A-9D75-044591E72FB5}" par="Id=IncludeStandardFields" ph="ApplicationContent.Main" uid="{E9931891-3E78-462A-924D-4CB21D94D61E}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=Border&amp;PaddingType=All&amp;Height=5px&amp;UsePadding=1&amp;ShowBorder=0" ph="ApplicationContent.Main" uid="{BF5CAEFB-A688-4574-BD2D-AB3F8B95D594}" />
+    <r id="{98316BB6-F3F5-4E6F-81F0-79F173D151D8}" par="Id=LabelDatabase&amp;Target=TextBoxDatabase&amp;Text=Database%3a" ph="ApplicationContent.Main" uid="{1BCADB43-C8E0-4597-9768-C7B33F815335}" />
+    <r id="{57F86E9A-1844-45CE-BF8A-62900AE17A92}" par="IsEnabled=1&amp;Text=master&amp;IsRequired=1&amp;Id=TextBoxDatabase&amp;IsVisible=1" ph="ApplicationContent.Main" uid="{1A238690-ECF7-4460-AAE8-CEA042A710EE}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=Border1&amp;PaddingType=All&amp;Height=10px&amp;UsePadding=1&amp;ShowBorder=0" ph="ApplicationContent.Main" uid="{7BABF8FD-EB94-4D72-AFFA-711C4263855C}" />
+    <r id="{98316BB6-F3F5-4E6F-81F0-79F173D151D8}" par="Id=LabelLanguages&amp;Target=TextBoxLanguages&amp;Text=Languages%3a" ph="ApplicationContent.Main" uid="{37673AE5-834B-4FBC-82FF-FBC8378D678D}" />
+    <r id="{57F86E9A-1844-45CE-BF8A-62900AE17A92}" par="IsEnabled=1&amp;Text=en&amp;IsRequired=1&amp;Id=TextBoxLanguages&amp;IsVisible=1" ph="ApplicationContent.Main" uid="{81368DAD-D471-4220-8C67-F72388FA7AC0}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=Border4&amp;PaddingType=All&amp;Height=10px&amp;UsePadding=1&amp;ShowBorder=0" ph="ApplicationContent.Main" uid="{F82399F3-A6D5-4394-A21C-D87F0717F54E}" />
+    <r ds="{9242381A-85F1-4D9B-B4A6-CC950903123D}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=Export" ph="ApplicationContent.Main" uid="{0D319363-FDD9-4AFD-B2EF-A3FEC88AEAC6}" />
+    <r ds="{F49EF380-54A6-4473-AC52-442C87F330AB}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=Cancel" ph="ApplicationContent.Main" uid="{57BF157D-4CFA-4796-9EA5-44672DE107A4}" />
+    <r id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Click=trigger%3aexport%3areset&amp;Id=Reset&amp;IsVisible=1&amp;IsEnabled=1&amp;ButtonType=Default&amp;Text=Reset+Fields&amp;Dimension=Normal" ph="ApplicationContent.Main" uid="{8919D885-7553-47C8-9172-8D8F91F8308E}" />
+    <r id="{EC86834B-890C-405C-BB36-CA25044909E1}" ph="GlobalFooter" uid="{E413C001-A4BA-4A8F-996B-A047A2C65DEF}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: 2522fbc9-8016-40d1-a97f-aa5bc9bd6244
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170304T033406Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2522fbc9-8016-40d1-a97f-aa5bc9bd6244
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170304T220712Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

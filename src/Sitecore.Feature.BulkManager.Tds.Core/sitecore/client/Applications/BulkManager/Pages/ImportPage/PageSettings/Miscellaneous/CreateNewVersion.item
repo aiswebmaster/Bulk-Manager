@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {52EE0147-6B1E-46CF-A109-9532BC2AD2BD}
+database: core
+path: /sitecore/client/Applications/BulkManager/Pages/ImportPage/PageSettings/Miscellaneous/CreateNewVersion
+parent: {B5572120-93C4-4231-BFA1-63EFE980028A}
+name: CreateNewVersion
+master: {00000000-0000-0000-0000-000000000000}
+template: {1B868F3C-E34E-4421-8EAC-CC026D8199B5}
+templatekey: Label Parameters
+created: 20170304T130735Z
+
+----field----
+field: {B76D36E3-CD97-47D1-A721-1CC942DAF7CE}
+name: Target
+key: target
+content-length: 16
+
+CreateNewVersion
+----version----
+language: en
+version: 1
+revision: cd198cf4-4855-4764-9109-14260a8b9b2d
+
+----field----
+field: {730A4068-4647-4006-B41C-CE28325432C7}
+name: Text
+key: text
+content-length: 19
+
+Create New Version:
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170304T130735Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cd198cf4-4855-4764-9109-14260a8b9b2d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170304T224343Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
